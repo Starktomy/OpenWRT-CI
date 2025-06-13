@@ -20,6 +20,7 @@ on:
           - IPQ60XX-WIFI-NO
           - IPQ807X-WIFI-YES
           - IPQ807X-WIFI-NO
+          - NETGEAR
           - TEST
       SOURCE:
         default: 'VIKINGYFY/immortalwrt'

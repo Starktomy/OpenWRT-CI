@@ -26,7 +26,6 @@ CONFIG_TARGET_DEVICE_ipq806x_generic_DEVICE_askey_rt4230w-rev6=y
 CONFIG_TARGET_DEVICE_PACKAGES_ipq806x_generic_DEVICE_askey_rt4230w-rev6="-kmod-ath10k-ct -ath10k-firmware-qca9984-ct kmod-ath10k ath10k-firmware-qca9984"
 CONFIG_TARGET_DEVICE_ipq806x_generic_DEVICE_nec_wg2600hp=y
 CONFIG_TARGET_DEVICE_PACKAGES_ipq806x_generic_DEVICE_nec_wg2600hp="-kmod-ath10k-ct -ath10k-firmware-qca99x0-ct kmod-ath10k ath10k-firmware-qca99x0"
-CONFIG_TARGET_PER_DEVICE_ROOTFS=y
 
 # exfat is patented
 CONFIG_BUILD_PATENTED=y

@@ -33,6 +33,8 @@ sed -i "s/hostname='.*'/hostname='$WRT_NAME'/g" $CFG_FILE
 #修改软件包为immortalwrt
 sed -i 's#https://git.openwrt.org/feed/packages#https://github.com/immortalwrt/packages#g' ./feeds.conf.default
 sed -i 's#https://git.openwrt.org/project/luci#https://github.com/immortalwrt/luci#g' ./feeds.conf.default
+./scripts/feeds update -a
+./scripts/feeds install -a
 #配置文件修改
 echo "CONFIG_PACKAGE_luci=y" >> ./.config
 echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config

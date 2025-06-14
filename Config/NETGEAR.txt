@@ -127,18 +127,8 @@ CONFIG_BUSYBOX_CONFIG_FEATURE_LESS_WINCH=y
 
 # Add-on programs
 CONFIG_DROPBEAR_ECC=y
-#CONFIG_PACKAGE_openvpn-openssl=y
 CONFIG_PACKAGE_htop=y
-CONFIG_PACKAGE_kmod-cryptodev=y
-CONFIG_PACKAGE_libopenssl-devcrypto=y
-CONFIG_PACKAGE_kmod-dnsresolver=y
-CONFIG_PACKAGE_kmod-ramoops=y
-CONFIG_PACKAGE_kmod-pstore=y
-CONFIG_PACKAGE_kmod-reed-solomon=y
-# CONFIG_PACKAGE_kmod-pppol2tp is not set
-CONFIG_PACKAGE_ds-lite=y
-#CONFIG_PACKAGE_curl=y
-CONFIG_PACKAGE_kmod-usb-printer=y
+
 
 # USB device mount & file systems support
 CONFIG_PACKAGE_block-mount=y

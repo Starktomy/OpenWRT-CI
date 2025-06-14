@@ -35,7 +35,7 @@ sed -i 's#https://git.openwrt.org/feed/packages#https://github.com/immortalwrt/p
 sed -i 's#https://git.openwrt.org/project/luci#https://github.com/immortalwrt/luci#g' ./feeds.conf.default
 sed -i 's#https://github.com/openwrt/packages#https://github.com/immortalwrt/packages#g' ./feeds.conf.default
 sed -i 's#https://github.com/openwrt/luci#https://github.com/immortalwrt/luci#g' ./feeds.conf.default
-
+cat ./feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 #配置文件修改

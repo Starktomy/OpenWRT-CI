@@ -32,7 +32,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [NETGEAR]
+        CONFIG: [KONG]
         SOURCE: [ricss/openwrt]
         BRANCH: [openwrt-23.05-nss-qsdk11]
 

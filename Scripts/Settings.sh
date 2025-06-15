@@ -38,6 +38,7 @@ sed -i 's#https://github.com/openwrt/luci#https://github.com/immortalwrt/luci#g'
 cat ./feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+rm -rf ./bin
 #配置文件修改
 echo "CONFIG_PACKAGE_luci=y" >> ./.config
 echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config

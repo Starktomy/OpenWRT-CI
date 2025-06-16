@@ -5,7 +5,7 @@ CONFIG_PACKAGE_luci-app-xfrpc=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-filemanager=y
 CONFIG_PACKAGE_luci-app-dockerman=y
-CONFIG_PACKAGE_luci-app-homebox=y
+CONFIG_PACKAGE_luci-app-netspeedtest=y
 CONFIG_PACKAGE_luci-app-store=y
 #qmodem插件
 CONFIG_PACKAGE_luci-app-qmodem=y
